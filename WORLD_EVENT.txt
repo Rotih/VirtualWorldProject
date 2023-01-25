@@ -1,0 +1,13 @@
+1. Event is triggered every second mouse click.
+2. The event is a lightning strike. The lightning strike creates a new entity at the click point,
+   then sets grass and dirt background objects to static terrain in an X pattern from the origin.
+   Static terrain is just different in appearance and is traversable.
+   Raindrop entities are created two squares away from the origin in each direction.
+   The nearest blob to the origin absorbs all the energy from the lightning strike and turns into an electro blob.
+3. Electro blobs need to dump their limitless energy, so they attack blacksmiths. Blacksmiths turn into Friedsmiths,
+   which is short for fried blacksmith.
+4. The new entity is essentially a hunter. To hunt the electro blobs, it goes to the nearest Friedsmith, where it
+   retrieves the energy dumped there by the electro blob and then uses it to kill the nearest electroblob using magic.
+   It then restores the Friedsmith to a normal Blacksmith so the miners can continue with their labor.
+
+
